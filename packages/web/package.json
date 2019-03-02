@@ -1,0 +1,46 @@
+{
+  "name": "next-apollo-rnw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/graphql": "^14.0.7",
+    "@types/next": "^8.0.1",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-native": "0.55.4",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-router-native": "^4.2.4",
+    "nodemon": "^1.18.10",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@silk/common": "1.0.0",
+    "@zeit/next-typescript": "^1.1.1",
+    "apollo-boost": "^0.3.1",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "graphql": "^14.1.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.0.3",
+    "next-compose-plugins": "^2.1.1",
+    "react": "^16.8.3",
+    "react-apollo": "^2.5.1",
+    "react-art": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-native": "0.55.4",
+    "react-native-web": "^0.10.0",
+    "react-router-dom": "^4.3.1",
+    "react-router-native": "^4.3.0"
+  }
+}

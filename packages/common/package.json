@@ -1,0 +1,21 @@
+{
+  "name": "@silk/common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.0-rc.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.6",
+    "@types/react-native": "^0.57.38",
+    "typescript": "^3.3.3333"
+  }
+}

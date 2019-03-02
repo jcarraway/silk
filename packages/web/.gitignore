@@ -1,0 +1,12 @@
+*.jsbundle
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+tmp/
+temp/
+.env
+.env.*
+dump.*
+.next
+yarn-error.log
