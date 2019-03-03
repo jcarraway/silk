@@ -17,12 +17,7 @@
     "composite": true,
     "strict": true,
     "noImplicitAny": true,
-    "resolveJsonModule": true,
-    "typeRoots": [
-      "../../@types",
-      "../../node_modules/@types",
-      "./node_modules/@types"
-    ]
+    "resolveJsonModule": true
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules/*", "next.config.js"]

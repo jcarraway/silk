@@ -14,7 +14,7 @@ const normalizeNextElements = `
 export default class MyDocument extends Document {
   static async getInitialProps({ renderPage }: any) {
     AppRegistry.registerComponent('Main', () => Main);
-    const { getStyleElement } = (AppRegistry as any).getApplication('Main');
+    const { getStyleElement } = AppRegistry.getApplication('Main');
     const page = renderPage();
     const styles = [
       <style dangerouslySetInnerHTML={{ __html: normalizeNextElements }} />,
