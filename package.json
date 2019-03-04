@@ -14,6 +14,13 @@
     "packages": [
       "packages/*"
     ],
-    "nohoist": ["**/react-native", "**/react-native/**"]
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**"
+    ]
+  },
+  "resolutions": {
+    "react": "16.8.2",
+    "react-dom": "16.8.2"
   }
 }
