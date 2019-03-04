@@ -4,16 +4,16 @@ module.exports = api => {
   const presets = ['next/babel', '@zeit/next-typescript/babel'];
 
   const plugins = [
-    // [
-    //   'module-resolver',
-    //   {
-    //     root: ['./'],
-    //     alias: {
-    //       '^react-native$': 'react-native-web',
-    //     },
-    //   },
-    // ],
-    ['react-native-web', { commonjs: true }],
+    [
+      'module-resolver',
+      {
+        root: ['./'],
+        alias: {
+          '^react-native$': 'react-native-web',
+        },
+      },
+    ],
+    // ['react-native-web', { commonjs: true }],
   ];
 
   return {
@@ -23,16 +23,16 @@ module.exports = api => {
 };
 
 // {
-//   "presets": ["next/babel", "@zeit/next-typescript/babel"],
-//   "plugins": [
-//     [
-//       "module-resolver",
-//       {
-//         "root": ["./"],
-//         "alias": {
-//           "^react-native$": "react-native-web"
-//         }
-//       }
-//     ]
-//   ]
+//   "presets": ["next/babel", "@zeit/next-typescript/babel"]
+//   // "plugins": [
+//   //   [
+//   //     "module-resolver",
+//   //     {
+//   //       "root": ["./"],
+//   //       "alias": {
+//   //         "^react-native$": "react-native-web"
+//   //       }
+//   //     }
+//   //   ]
+//   // ]
 // }

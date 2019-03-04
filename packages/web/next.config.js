@@ -8,7 +8,7 @@ const nextConfig = {
     config.resolve.alias = {
       ...(config.resolve.alias || {}),
       // '@silk/common': require.resolve('@silk/common/dist'),
-      // 'react-native$': 'react-native-web',
+      'react-native$': 'react-native-web',
       // 'react-native$': require.resolve('react-native-web'),
     };
     return config;
