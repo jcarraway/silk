@@ -1,4 +1,4 @@
-package com.rnwrn;
+package com.amaze;
 
 import android.app.Application;
 
