@@ -19,6 +19,7 @@
     "noImplicitAny": true,
     "resolveJsonModule": true
   },
+  "references": [{ "path": "../common" }],
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules/*", "next.config.js"]
 }

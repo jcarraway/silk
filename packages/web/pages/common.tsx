@@ -1,3 +1,3 @@
-import { App } from '@silk/common';
+import { App } from '@amaze/common';
 
 export default App;

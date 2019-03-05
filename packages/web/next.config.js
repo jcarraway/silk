@@ -7,7 +7,7 @@ const nextConfig = {
     // Alias all `react-native` imports to `react-native-web`
     config.resolve.alias = {
       ...(config.resolve.alias || {}),
-      // '@silk/common': require.resolve('@silk/common/dist'),
+      // '@silk/common': require.resolve('@silk/common'),
       'react-native$': 'react-native-web',
       // 'react-native$': require.resolve('react-native-web'),
     };
@@ -20,7 +20,7 @@ module.exports = withPlugins(
     [
       withTM,
       {
-        transpileModules: ['@silk/common'],
+        transpileModules: ['@amaze/common'],
       },
     ],
     withTypescript,

@@ -1,5 +1,5 @@
 {
-  "name": "next-apollo-rnw",
+  "name": "@amaze/web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,7 +26,7 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "@silk/common": "1.0.0",
+    "@amaze/common": "1.0.0",
     "@zeit/next-typescript": "^1.1.1",
     "apollo-boost": "^0.3.1",
     "babel-plugin-react-native-web": "^0.10.0",
