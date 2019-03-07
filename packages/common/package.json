@@ -10,12 +10,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "immer": "^2.1.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
     "react": "16.8.2",
-    "react-native": "^0.59.0-rc.3"
+    "react-native": "^0.59.0-rc.3",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.2",
+    "reselect": "^4.0.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.122",
     "@types/react": "^16.8.6",
     "@types/react-native": "^0.57.38",
+    "@types/react-redux": "^7.0.1",
     "typescript": "^3.3.3333"
   }
 }
